@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="en">
 <head>
 	<title>TAY</title>
 	<style>
@@ -7,6 +7,7 @@
 		background-color: #1f1f1f;
 		width: 98%;
  		min-height: 100%;
+ 		font-family: sans-serif;
 	}
 
 	.content {
@@ -33,6 +34,47 @@
 			-webkit-transform: rotateY(359deg);
 		}
 	}
+
+	.family {
+		font-variant: small-caps;
+		font-size: 3.5rem;
+	}
+
+	hr {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		width: 10rem;
+	}
+
+	.sites {
+		color: #e3e3e3;
+	}
+
+	.sites table {
+		margin-top: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.sites table td {
+		padding: 0 1rem;
+	}
+
+	.sites table img {
+		height: 3.5rem;
+	}
+
+	.sites table div {
+		padding: 0.3rem;
+	}
+
+	a:link {
+		text-decoration: none;
+	}
+
+	a:visited {
+		text-decoration: none;
+	}
 	</style>
 </head>
 <body>
@@ -41,8 +83,39 @@
 			郑
 		</div>
 
-		<div style='margin-top: 7.5rem;'>
-			admin at tay dot blue
+		<div class="family" style="margin-top: 3.5rem;">
+			the TAY family
+		</div>
+
+		<div style="margin-top: 1.5rem;">
+			master contact: admin at tay dot blue
+		</div>
+
+		<hr>
+
+		<div class="sites">
+			member sites
+
+			<table>
+				<tr>
+					<td>
+						<a href="https://nick.tay.blue/">
+							<img src="https://nick.tay.blue/assets/circle-prof.png" alt="Nicholas Tay">
+							<div style="color: #FF9FFE">
+								Nick
+							</div>
+						</a>
+					</td>
+					<td>
+						<a href="https://boar.in.tay.blue/" title="For internal, authorised users only. If you are one, ensure you are at home, or connected over the private VPN.">
+							<img src="assets/boar.png" alt="Tay Intranet (Boar)">
+							<div style="color: #e07a14">
+								BOARtal
+							</div>
+						</a>
+					</td>
+				</td>
+			</table>
 		</div>
 	</div>
 </body>
